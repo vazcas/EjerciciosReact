@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import ComponenteUno from './ComponenteUno'
-import ComponenteDos from './ComponenteDos'
+import ComponenteUno from './Components/ComponenteUno'
+import ComponenteDos from './Components/ComponenteDos'
 import './App.css'
 
 
@@ -9,8 +9,8 @@ function App() {
  
   return(
   <>
-    <ComponenteUno/>
-    <ComponenteDos/>
+    <ComponenteUno telefono="695763423" />
+    <ComponenteDos telefono="627134354" />
   </>
   )
   

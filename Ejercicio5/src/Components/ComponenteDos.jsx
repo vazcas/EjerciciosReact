@@ -6,12 +6,13 @@ const usuario2 = {
     email: 'agus@email.com'
 }
 
-function ComponenteDos() {
+const ComponenteDos =(props) =>{
 
     return(
         <>
         <p>username: {usuario2.username}</p>
         <p>email: {usuario2.email}</p>
+        {console.log(props)}
         </>
     )
 }

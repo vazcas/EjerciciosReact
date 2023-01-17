@@ -5,12 +5,13 @@ const usuario1 = {
     email: 'manuel@email.com'
 }
 
-function ComponenteUno() {
+const ComponenteUno =(props) => {
 
     return(
         <>
         <p>username: {usuario1.username}</p>
         <p>email: {usuario1.email}</p>
+        {console.log(props)}
         </>
     )
 }
